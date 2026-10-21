@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reposcraper"
+version = "1.0.0"
+description = "Grounded question answering for public GitHub repositories"
+requires-python = ">=3.10"
+dependencies = [
+  "streamlit>=1.36",
+  "requests>=2.31",
+  "python-dotenv>=1.0",
+  "groq>=0.11",
+  "beautifulsoup4>=4.12",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: reposcraper
+Version: 1.0.0
+Summary: Grounded question answering for public GitHub repositories
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: streamlit>=1.36
+Requires-Dist: requests>=2.31
+Requires-Dist: python-dotenv>=1.0
+Requires-Dist: groq>=0.11
+Requires-Dist: beautifulsoup4>=4.12
+Dynamic: license-file
