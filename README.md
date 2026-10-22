@@ -1,6 +1,7 @@
 # RepoScraper — GitHub RAG Assistant
 
 live link: https://reposcaper.streamlit.app
+
 RepoScraper lets users paste a public GitHub repository URL, retrieve relevant source-code excerpts, and ask questions grounded in those excerpts. It can summarize the repository, show source files, cite file paths and line ranges, and optionally add external web-search results.
 
 ## Features
